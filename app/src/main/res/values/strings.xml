@@ -1,0 +1,22 @@
+<resources>
+    <string name="app_name">Hero Me</string>
+
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="superman_story">Superman is born Kal-El on the alien planet Krypton. His parents,
+        Jor-El and Lara become aware of Krypton\s
+        impending destruction and Jor-El begins constructing a spacecraft to carry Kal-El to Earth. .
+        .. As Clark grows up on Earth, he and his adoptive parents discover that he has superhuman powers.
+</string>
+    <string name="turtle">Not to be outdone, Eastman drew four turtles, each armed with a ninja-style weapon. Laird outlined the group shot in ink and added “Teenage Mutant” to the “Ninja Turtles” title.
+        As Eastman and Laird began fleshing out the Turtles to create a comic book, they had to give the Turtles names</string>
+    <string name="turtle_secondary">The Teenage Mutant Ninja Turtles (often shortened to TMNT or Ninja Turtles) are four fictional teenaged anthropomorphic turtles named after Italian artists of the Renaissance. They were trained by their anthropomorphic rat sensei in the art of ninjutsu.
+</string>
+    <string name="thor">Powers and abilities. Thor possesses immense superhuman strength, stamina, and durability. … Thor possesses the ability to control the weather on a large scale.
+</string>
+    <string name="spiderman">Peter Parker was bitten by a radioactive spider, which then caused him to mutate, obtaining superhuman strength, endurance, and agility as well as the ability to stick to walls and an instinctive “spider sense” that allows him to sense immediate danger.
+</string>
+    <string name="cyclops">Cyclops (real name: Scott Summers) is a mutant capable of generating concussive force-based, red-colored beams from his eyes. He has fought for peace and equality between humans and mutants ever since joining the X-Men.
+</string>
+    <string name="hulk">The high dose of gamma radiation caused Banner to transform into the Hulk fir the first time, destroying the machine, injuring Betty Ross, and General Ross, and destroying much of his research. ... They wanted to create a super soldier, but it went wrong, and now whenever Bruce Banner gets angry he becomes the HULK!
+</string>
+</resources>

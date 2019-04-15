@@ -28,6 +28,7 @@ public class MainActivity extends AppCompatActivity implements MainFragment.Main
     public int POWER_SRC_SECONDARY = 0;
     public int HERO_IMG = 0;
 
+
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
@@ -51,6 +52,7 @@ public class MainActivity extends AppCompatActivity implements MainFragment.Main
 
     public void loadStory() {
         BackStory backStoryFragment = new BackStory();
+        this.getSupportFragmentManager().popBackStack();
         this.getSupportFragmentManager().beginTransaction()
                 .replace(R.id.fragment_container, backStoryFragment)
                 .addToBackStack(null).commit();
@@ -58,7 +60,12 @@ public class MainActivity extends AppCompatActivity implements MainFragment.Main
 
     public void loadMainScreen() {
         MainFragment mainFragment = new MainFragment();
-        this.getSupportFragmentManager().beginTransaction().replace(R.id.fragment_container, mainFragment).addToBackStack(null).commit();
+        this.getSupportFragmentManager().beginTransaction()
+                .replace(R.id.fragment_container, mainFragment).addToBackStack(null).commit();
+    }
+
+    public void KillApp() {
+        finish();
     }
 
     @Override

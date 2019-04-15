@@ -90,6 +90,7 @@ public class BackStory extends Fragment implements View.OnClickListener{
         ImageView heroImage = view.findViewById(R.id.heroImg);
         TextView story = view.findViewById(R.id.storyText);
         TextView heroBigText = view.findViewById(R.id.heroText);
+        Button ExitBtn = view.findViewById(R.id.startBtn2);
         TextView backStText = view.findViewById(R.id.backText);
 
         heroBigText.setText(heroName);
@@ -108,6 +109,12 @@ public class BackStory extends Fragment implements View.OnClickListener{
             @Override
             public void onClick(View v) {
                 mainActivity.loadMainScreen();
+            }
+        });
+        ExitBtn.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                mainActivity.KillApp();
             }
         });
 
